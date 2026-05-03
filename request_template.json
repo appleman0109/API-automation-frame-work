@@ -1,0 +1,54 @@
+{
+  "_comment": "Remove this field before using in production. Placeholders use {{field_name}} syntax.",
+
+  "transactionId":    "{{transaction_id}}",
+  "requestTimestamp": "{{request_timestamp}}",
+
+  "customer": {
+    "customerId":   "{{customer_id}}",
+    "firstName":    "{{first_name}}",
+    "lastName":     "{{last_name}}",
+    "email":        "{{email}}",
+    "phoneNumber":  "{{phone_number}}",
+    "tier":         "{{customer_tier}}"
+  },
+
+  "order": {
+    "orderId":      "{{order_id}}",
+    "currency":     "{{currency}}",
+    "totalAmount":  "{{total_amount}}",
+    "discountCode": "{{discount_code}}",
+    "channel":      "{{channel}}",
+
+    "items": [
+      {
+        "sku":       "{{item_sku}}",
+        "quantity":  "{{item_quantity}}",
+        "unitPrice": "{{item_unit_price}}"
+      }
+    ],
+
+    "shippingAddress": {
+      "line1":    "{{shipping_line1}}",
+      "city":     "{{shipping_city}}",
+      "state":    "{{shipping_state}}",
+      "postcode": "{{shipping_postcode}}",
+      "country":  "{{shipping_country}}"
+    }
+  },
+
+  "payment": {
+    "method":        "{{payment_method}}",
+    "cardLastFour":  "{{card_last_four}}",
+    "billingZip":    "{{billing_zip}}"
+  },
+
+  "staticField1":  "ALWAYS_THIS_VALUE",
+  "staticField2":  42,
+  "staticFlag":    true,
+
+  "metadata": {
+    "source":     "automation_framework",
+    "version":    "1.0"
+  }
+}

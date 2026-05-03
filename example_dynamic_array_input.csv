@@ -1,0 +1,4 @@
+order_id,customer_id,channel,item_sku,item_quantity,item_unit_price,item_discount,items_count,shipping_method,shipping_cost,shipping_days,shippingOptions_count
+ORD001,CUST123,WEB,SKU001,2,99.99,10,3,EXPRESS,15.99,2,2
+ORD002,CUST456,MOBILE,SKU002,1,149.99,5,2,STANDARD,9.99,5,1
+ORD003,CUST789,APP,SKU003,5,29.99,0,1,OVERNIGHT,29.99,1,1

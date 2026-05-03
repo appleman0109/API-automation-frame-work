@@ -1,0 +1,6 @@
+test_id,exp_status,exp_statusCode,exp_order.orderId,exp_order.status,exp_order.currency,exp_order.totalAmount,exp_customer.customerId,exp_customer.tier,exp_payment.status,exp_payment.method,exp_flags.emailSent,exp_flags.inventoryReserved,exp_riskScore,exp_message
+TC_0000001,SUCCESS,200,ORD-00000001,CONFIRMED,EUR,1365.72,CUST-0000001,BRONZE,CAPTURED,CARD,true,true,LOW,Order placed successfully
+TC_0000002,SUCCESS,200,ORD-00000002,CONFIRMED,INR,3166.65,CUST-0000002,GOLD,CAPTURED,CARD,true,true,LOW,Order placed successfully
+TC_0000003,SUCCESS,200,ORD-00000003,CONFIRMED,INR,19219.8,CUST-0000003,BRONZE,CAPTURED,UPI,true,true,MEDIUM,Order placed successfully
+TC_0000004,SUCCESS,200,ORD-00000004,CONFIRMED,INR,19249.2,CUST-0000004,PLATINUM,CAPTURED,CARD,true,true,MEDIUM,Order placed successfully
+TC_0000005,SUCCESS,200,ORD-00000005,CONFIRMED,INR,10328.88,CUST-0000005,BRONZE,CAPTURED,NETBANK,true,true,LOW,Order placed successfully

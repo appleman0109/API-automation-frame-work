@@ -1,0 +1,39 @@
+{
+  "transactionId": "{{transaction_id}}",
+  "timestamp": "{{timestamp}}",
+  
+  "customer": {
+    "id": "{{customer_id}}",
+    "name": "{{customer_name}}",
+    "email": "{{customer_email}}"
+  },
+  
+  "order": {
+    "orderId": "{{order_id}}",
+    "amount": "{{amount}}",
+    "currency": "{{currency}}",
+    
+    "items": [
+      {
+        "sku": "{{item1_sku}}",
+        "quantity": "{{item1_quantity}}",
+        "price": "{{item1_price}}"
+      },
+      {
+        "sku": "{{item2_sku}}",
+        "quantity": "{{item2_quantity}}",
+        "price": "{{item2_price}}"
+      }
+    ],
+    
+    "shipping": {
+      "method": "{{shipping_method}}",
+      "cost": "{{shipping_cost}}"
+    }
+  },
+  
+  "payment": {
+    "method": "{{payment_method}}",
+    "status": "{{payment_status}}"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "orderId": "{{order_id}}",
+  "customerId": "{{customer_id}}",
+  "channel": "{{channel}}",
+
+  "items": [
+    {
+      "sku": "{{item_sku}}",
+      "quantity": "{{item_quantity}}",
+      "unitPrice": "{{item_unit_price}}",
+      "discount": "{{item_discount}}"
+    }
+  ],
+
+  "shippingOptions": [
+    {
+      "method": "{{shipping_method}}",
+      "cost": "{{shipping_cost}}",
+      "days": "{{shipping_days}}"
+    }
+  ]
+}
